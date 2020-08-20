@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+	background-color: white !important;
+	margin: 0;
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+}
+
+@media only screen and (max-width:600px) {
+    body {
+      font-size: 80%;
+    }
+  }
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar {
+    background: rgba(0,0,0,0) !important;
+}
+
+.ul {
+    position: absolute;
+    top: 0px;
+}
+
+.headerhider {
+    height: 0px;
+    overflow: visible;
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0px !important;
+    z-index: 999;
+}
+
+.showcase {
+    margin: auto;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    width: 100%;
+}
+
+.landing {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+}
+
+.text {
+    width: 100%;
+    top: 20vw;
+    font-size: 400%;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 400;
+	animation-name: text;
+	animation-duration: 3s;
+    animation-fill-mode: forwards;
+    z-index: 3;
+    position: absolute;
+}
+
+@keyframes text {
+    0% {
+        color: rgba(255,255,255,0);
+        
+    }
+    100% {
+        color: rgba(255,255,255,1);}
+}
+
+.home {
+    display: inline-block;
+    height: 56.2vw;
+    width: 100%;
+}
+
+.showcase {
+    display: block;
+}
+
+
+.about {
+    margin-top: 5vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 10vw;
+}
+
+@media only screen and (max-width:600px) {
+    .about {
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+}
+
+.about h2 {
+    font-size: 200%;
+}
+
+.about img {
+    float: right;
+    width: 30%;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+}
+
+.anchor1 {
+    position: relative;
+    top: -8vw;
+}
+
+.projects {
+    margin-top: 5vw;
+    margin-bottom: 10vw;
+}
+
+h1 {
+    text-align: center;
+    font-size: 500%;
+    margin-bottom: 5vw;
+}
+
+.projects .col-sm-6 {
+    margin-bottom: 2vw;
+}
+
+.projects img:hover {
+    filter: blur(4px) grayscale(30%);
+}
+
+.anchor2 {
+    position: relative;
+    top: -8vw;
+}
+
+.anim {
+    overflow: visible;
+    position: -webkit-sticky;
+    position: sticky
+
+}
+
+.contact {
+    margin-top: 5vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 10vw;
+}
+
+.anchor3 {
+    position: relative;
+    top: -8vw;
+}
+
+.footer {
+    width: 100%;
+}

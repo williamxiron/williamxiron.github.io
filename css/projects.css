@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+	background-color: white !important;
+	margin: 0;
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+}
+
+@media only screen and (max-width:600px) {
+    body {
+      font-size: 80%;
+    }
+  }
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar {
+    background: #202020 !important;
+}
+
+.ul {
+    position: absolute;
+    top: 0px;
+}
+
+.header {
+    background: gray !important;
+}
+
+.headerhider {
+    overflow: visible;
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0px !important;
+    z-index: 999;
+}
+
+h1 {
+    text-align: center;
+    font-size: 500%;
+    margin-bottom: 5vw;
+}
+
+.content {
+    margin-top: 5vw;
+}
+
+.showcase {
+    text-align: center;
+}
