@@ -1,2 +1,0 @@
-# williamxiron.github.io
-portfolio
