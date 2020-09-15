@@ -48,4 +48,13 @@ html, body, canvas {
     z-index: 999;
 }
 
+.navbar {
+    background: #202020 !important;
+}
+
+.ul {
+    position: absolute;
+    top: 0px;
+}
+
 
